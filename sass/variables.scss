@@ -1,0 +1,21 @@
+// ====================== Variables ====================
+
+$font-stack: 'Roboto', sans-serif;
+$header_color: #2aa7cb;
+$text_color: #4a4a4a;
+$header_size: 48px;
+$sidebar-header_size: 40px;
+$plain-text_size: 13px;
+$line_height: 25px;
+
+@mixin button($bg-color) {
+	width: 30%;
+	height: 40px;
+	line-height: 40px;
+	font: 400 14px $font-stack;
+	color: #fff;
+	text-align: center;
+	background: $bg-color;
+	border: none;
+	outline: 0;
+}
